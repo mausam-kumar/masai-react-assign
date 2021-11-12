@@ -1,13 +1,15 @@
 // import logo from './logo.svg';
 import React from 'react';
 import './App.css';
+import Mobile from './component/Mobile'
 import List from './component/List'
-
 
 function App() {
   const style = {
     backgroundColor:"grey",
   }
+  var array1= ["Android", "iOS", "Blackberry" , "Windows Phone"];
+  var array2 = ["Samsung","HTC","Apple","Micromax"]
   return (
     <div className="App">
 
@@ -17,6 +19,10 @@ function App() {
         <h4><List title="NameTwo" src="https://rukminim1.flixcart.com/image/150/150/kqse07k0/shoe/s/o/0/10-5g-725-campus-d-gry-blk-golden-original-imag4pvfdmgcytwg.jpeg?q=70" label="NameTwo" /></h4>
         <h4><List title="NameThree" src="https://rukminim1.flixcart.com/image/150/150/jhgl5e80/rice-light/7/g/d/1-usb10wwy-copper-string-led-light-10-mtr-100-led-usb-operated-original-imaf4z5g9rgww6hs.jpeg?q=70" label="NameThree" /></h4>
       </ul>
+
+      <Mobile title="Mobile Operating System" array ={array1} />
+      <Mobile title="Mobile Manufacturer" array ={array2} />
+
     </div>
   );
 }
