@@ -1,0 +1,32 @@
+.btnToggle{
+    height: 40px;
+    width: 100px;
+    border-radius:20px;
+    padding: 5px;
+    color: white !important;
+    background-color:rgb(238, 39, 89);
+    outline: none;
+    border: none;
+}
+
+.mainDiv{
+    display: flex;
+    width: 36%;
+    margin: 50px auto;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    align-items: center;
+    padding: 1%;
+    background-color:cornflowerblue;
+    color: crimson;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px;
+    border-radius:20px;
+
+}
+
+.para{
+    color: crimson;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:26px;
+}

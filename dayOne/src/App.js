@@ -35,13 +35,13 @@ function App() {
       
       {/* you part second assignment */}
 
-      {/* {
+      {
         titleArray.map(function(ele,i){
           return (
             <Button title={ele} color={colorArray[i]} />
           )
         })
-      } */}
+      }
 
       {/* you part third assignment */}
 

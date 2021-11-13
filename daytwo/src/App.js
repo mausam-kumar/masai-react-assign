@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import React ,{useState} from 'react';
+import Todo from "./components/Todo";
+
 
 function App() {
 
@@ -14,12 +16,22 @@ function App() {
     setValue(value-1)
   }
 
+  const doubleValue = () => {
+    setValue(value*2)
+  }
+
   return (
     <div className="App">
-      <h1>Counter</h1>
+
+      {/* We part first assignment */}
+      {/* <h1>Counter</h1>
       <h2>{value}</h2>
-      <button onClick={handlePlusClick}>+</button>
-      <button onClick={handleMinusClick}>-</button>
+      <button onClick={handlePlusClick}>Increment</button>
+      <button onClick={handleMinusClick}>Decrement</button>
+      <button onClick={doubleValue}>Double</button> */}
+
+      <Todo />
+
     </div>
   );
 }

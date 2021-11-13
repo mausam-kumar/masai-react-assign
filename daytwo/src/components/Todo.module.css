@@ -1,0 +1,22 @@
+.addBtn{
+    height: 40px;
+    width: 100px;
+    border-radius:20px;
+    padding: 5px;
+    color: white !important;
+    background-color:cornflowerblue;
+    outline: none;
+    border: none;
+}
+.inpVal{
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 400px;
+    border-radius:20px;
+    padding: 5px;
+    border: 1px solid crimson !important;
+    margin-right: 10px;
+    font-size:22px;
+    
+}
