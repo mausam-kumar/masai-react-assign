@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+input{
+    height: 30px;
+    width: 240px;
+    margin: 20px;
+    padding: 2%;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(253, 251, 251);
+    background-color: darkslateblue;
+    border: none;
+    outline: none;
+}
+input::placeholder{
+  color: white;
+}

@@ -1,13 +1,34 @@
-import React from 'react';
+import React,{useState} from 'react';
+import {Button} from "./Button";
+import style from "./Todo.module.css";
 
-function TodoItem({title,description}){
+
+function TodoItem({title,description,status,handleDelete}){
+    const [eleState,setEleState] = useState(`${status}`)
+    
+    function handleToggle(){
+        if (eleState==="false") {
+            setEleState("true")
+        }else{
+            setEleState("false")
+        }
+        
+    }
+
     return (
-        <React.Fragment>
-            <div>
-                <p>{title}</p>
-                <p>{description}</p>
+
+        <div className={style.card}>
+            <div className={style.cardLeft}>
+                <p>Title : {title}</p>
+                <p>Description : {description}</p>
+                <p>Status : {eleState}</p>
             </div>
-        </React.Fragment>
+            <Button title="Toggle" 
+           color="orange" handleClick={handleToggle}/>
+            <Button title="Delete" 
+           color="red" handleClick={handleDelete} />
+
+        </div>
     )
 }
 

@@ -2,8 +2,12 @@ import React,{useState} from 'react';
 import {Button} from "./Button"
 import {v4 as uuid } from 'uuid'
 import {TodoList} from "./TodoList"
+import style from "./Todo.module.css"
+
+
 function TodoInput(){
-    const [container,SetContainer] = useState([])
+    const [container,setContainer] = useState([])
+
     const [state,setState] = useState({
         title:"",
         description:"",
@@ -11,17 +15,26 @@ function TodoInput(){
     })
 
     function handleAdd(title, description){
+       
         const payload = {
             title:title,
             description:description,
-            status:false,
+            status:"false",
             id:uuid()
         }
-        console.log(container);
-        SetContainer([...container,payload])
+        
+        setContainer([...container,payload])
+        
+    }
+
+    function handleDelete(id){
+        var newArray = container.filter(ele => ele.id !== id)
+
+        setContainer([...newArray])
     }
 
     function handleChange(e){
+        e.preventDefault()
         const value = e.target.name
         
         setState({
@@ -32,21 +45,29 @@ function TodoInput(){
     }
     return (
         <React.Fragment>
-            <input type="text"
-             placeholder="Title" 
-             name="title"
-             onChange={handleChange}
-             />
-            <input type="text" 
-            placeholder="Description" 
-            name="description"
-            onChange={handleChange}
-            />
-            <Button title="ADD"
-             color="green" 
-             handleClick={() => handleAdd(state.title,state.description)} 
-             />
-             <TodoList array={container} />
+            <div className={style.header}>
+
+                <form action="" className={style.form}>
+
+                    <input type="text"
+                    placeholder="Title" 
+                    name="title"
+                    onChange={handleChange}
+                    />
+                    <input type="text" 
+                    placeholder="Description" 
+                    name="description"
+                    onChange={handleChange}
+                    />
+                </form>
+
+                
+                <Button title="ADD"
+                color="green" 
+                handleClick={() => handleAdd(state.title,state.description)} 
+                />
+            </div>
+             <TodoList array={container} deleteFunc={handleDelete} />
         </React.Fragment>
     )
 }
