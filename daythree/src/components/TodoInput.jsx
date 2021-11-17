@@ -7,6 +7,7 @@ import style from "./Todo.module.css"
 
 function TodoInput(){
     const [container,setContainer] = useState([])
+    const [buttonState,setButtonState] = useState("ShowCompleted")
 
     const [state,setState] = useState({
         title:"",
@@ -14,12 +15,28 @@ function TodoInput(){
         
     })
 
+    function handleToggle(id){
+        var newContainer = [...container]
+        for(var i=0;i<newContainer.length;i++){
+            if (newContainer[i].id===id) {
+                if (newContainer[i].status==="true") {
+                    newContainer[i].status = "false"
+                }else{
+                    newContainer[i].status = "true"
+                }
+                break
+            }
+        }
+        setContainer([...newContainer])
+        console.log(container);
+    }
+
     function handleAdd(title, description){
        
         const payload = {
             title:title,
             description:description,
-            status:"false",
+            status:container.length%2===0?"false":"true",
             id:uuid()
         }
         
@@ -42,6 +59,14 @@ function TodoInput(){
         })
 
         
+    }
+
+    function handleBtn(){
+        if (buttonState==="ShowCompleted") {
+            setButtonState("HideCompleted")
+        }else{
+            setButtonState("ShowCompleted")
+        }
     }
     return (
         <React.Fragment>
@@ -66,8 +91,15 @@ function TodoInput(){
                 color="green" 
                 handleClick={() => handleAdd(state.title,state.description)} 
                 />
+                <Button title={buttonState} handleClick={handleBtn}color="blue" />
             </div>
-             <TodoList array={container} deleteFunc={handleDelete} />
+            {
+                buttonState==="ShowCompleted" && <TodoList array={container.filter(ele => ele.status==="false")} deleteFunc={handleDelete} toggleFunc={handleToggle} />
+            }
+            {
+                buttonState==="HideCompleted" && <TodoList array={container.filter(ele => ele.status==="true")} deleteFunc={handleDelete} toggleFunc={handleToggle} />
+            }
+            
         </React.Fragment>
     )
 }

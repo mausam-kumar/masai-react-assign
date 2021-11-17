@@ -3,8 +3,9 @@ import {Button} from "./Button";
 import style from "./Todo.module.css";
 
 
-function TodoItem({title,description,status,handleDelete}){
+function TodoItem({title,description,status,handleDelete,toggleFunc}){
     const [eleState,setEleState] = useState(`${status}`)
+    
     
     function handleToggle(){
         if (eleState==="false") {
@@ -12,7 +13,7 @@ function TodoItem({title,description,status,handleDelete}){
         }else{
             setEleState("false")
         }
-        
+        toggleFunc()
     }
 
     return (
