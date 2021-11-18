@@ -1,0 +1,227 @@
+[
+    {
+        "cost":150,
+        "voteCount":963,
+        "reviewCount":550,
+        "paymentMethods": {
+            "card": "true",
+            "cash": "false",
+            "upi": "true"
+        },
+        "rating":3.9,
+        "name":"WBFC",
+        "imageUrl":"https://b.zmtcdn.com/data/pictures/1/23231/04339d7aa8d2880b2397fe08161f1635_o2_featured_v2.jpg?output-format=webp"
+
+    },
+    {
+        "cost":160,
+        "voteCount":25698,
+        "reviewCount":17925,
+        "paymentMethods": {
+            "card": "false",
+            "cash": "true",
+            "upi": "true"
+        },
+        "rating":3.8,
+        "name":"Al Baik Fast Food Corner",
+        "imageUrl":"https://b.zmtcdn.com/data/pictures/6/18761176/ac0241893f90662ae294c580d014984c_o2_featured_v2.jpg?output-format=webp"
+
+    },
+    {
+        "cost":155,
+        "voteCount":500,
+        "reviewCount":230,
+        "paymentMethods": {
+            "card": "true",
+            "cash": "false",
+            "upi": "true"
+        },
+        "rating":3.9,
+        "name":"Bhukkad Gorilla",
+        "imageUrl":"https://b.zmtcdn.com/data/pictures/9/19926839/5fffcaad8ab7f7ab5563feadd580b54d_o2_featured_v2.jpg?output-format=webp"
+
+    },
+    {
+        "cost":255,
+        "voteCount":8965,
+        "reviewCount":6900,
+        "paymentMethods": {
+            "card": "false",
+            "cash": "true",
+            "upi": "true"
+        },
+        "rating":3.7,
+        "name":"New Paul Dhaba",
+        "imageUrl":"https://b.zmtcdn.com/data/pictures/9/18561959/ee567c3cf31026c101a2df50060c310a_o2_featured_v2.jpg?output-format=webp"
+
+    },
+    {
+        "cost":169,
+        "voteCount":987,
+        "reviewCount":653,
+        "paymentMethods": {
+            "card": "true",
+            "cash": "false",
+            "upi": "true"
+        },
+        "rating":4.0,
+        "name":"Couch Potato",
+        "imageUrl":"https://b.zmtcdn.com/data/pictures/9/18561959/ee567c3cf31026c101a2df50060c310a_o2_featured_v2.jpg?output-format=webp"
+
+    },
+    {
+        "cost":190,
+        "voteCount":36589,
+        "reviewCount":21200,
+        "paymentMethods": {
+            "card": "false",
+            "cash": "true",
+            "upi": "true"
+        },
+        "rating":4.3,
+        "name":"Zam Zam",
+        "imageUrl":"https://b.zmtcdn.com/data/pictures/8/18965888/c48edbfd6a31a42e94948d726ce31c19_o2_featured_v2.jpg?output-format=webp"
+
+    },
+    {
+        "cost":195,
+        "voteCount":4869,
+        "reviewCount":3250,
+        "paymentMethods": {
+            "card": "true",
+            "cash": "false",
+            "upi": "true"
+        },
+        "rating":3.0,
+        "name":"Chaccha Jaan Biryani",
+        "imageUrl":"https://b.zmtcdn.com/data/pictures/0/18461760/34f16ca887d95fc14b4aa5bb6f89e9b7_o2_featured_v2.jpg?output-format=webp"
+
+    },
+    {
+        "cost":210,
+        "voteCount":18965,
+        "reviewCount":14950,
+        "paymentMethods": {
+            "card": "false",
+            "cash": "true",
+            "upi": "true"
+        },
+        "rating":4.3,
+        "name":"Jai Hind Dhaba",
+        "imageUrl":"https://b.zmtcdn.com/data/pictures/0/18461760/34f16ca887d95fc14b4aa5bb6f89e9b7_o2_featured_v2.jpg?output-format=webp"
+
+    },
+    {
+        "cost":185,
+        "voteCount":963,
+        "reviewCount":850,
+        "paymentMethods": {
+            "card": "true",
+            "cash": "false",
+            "upi": "true"
+        },
+        "rating":3.7,
+        "name":"Laziz Food Centre",
+        "imageUrl":"https://b.zmtcdn.com/data/pictures/chains/3/18947213/0716b5947b013e6dc41f5defe0bb72e0_o2_featured_v2.jpg?output-format=webp"
+
+    },
+    {
+        "cost":280,
+        "voteCount":780,
+        "reviewCount":550,
+        "paymentMethods": {
+            "card": "false",
+            "cash": "true",
+            "upi": "true"
+        },
+        "rating":4.2,
+        "name":"Kabuliwala",
+        "imageUrl":"https://b.zmtcdn.com/data/pictures/chains/3/18947213/0716b5947b013e6dc41f5defe0bb72e0_o2_featured_v2.jpg?output-format=webp"
+
+    },
+    {
+        "cost":165,
+        "voteCount":3965,
+        "reviewCount":2675,
+        "paymentMethods": {
+            "card": "true",
+            "cash": "false",
+            "upi": "true"
+        },
+        "rating":3.8,
+        "name":"Chinese Dhaba",
+        "imageUrl":"https://b.zmtcdn.com/data/pictures/5/25705/e2f6198514ae7714c201f8b95dd9a01c_o2_featured_v2.jpg"
+
+    },
+    {
+        "cost":200,
+        "voteCount":3210,
+        "reviewCount":1000,
+        "paymentMethods": {
+            "card": "false",
+            "cash": "true",
+            "upi": "true"
+        },
+        "rating":4.1,
+        "name":"Ayan Fast Food Center",
+        "imageUrl":"https://b.zmtcdn.com/data/pictures/5/25705/e2f6198514ae7714c201f8b95dd9a01c_o2_featured_v2.jpg"
+
+    },
+    {
+        "cost":230,
+        "voteCount":3652,
+        "reviewCount":2475,
+        "paymentMethods": {
+            "card": "true",
+            "cash": "true",
+            "upi": "true"
+        },
+        "rating":4.0,
+        "name":"Anir's",
+        "imageUrl":"https://b.zmtcdn.com/data/pictures/chains/5/21055/…477c94aa093c4628638286593bb9fa_o2_featured_v2.jpg"
+
+    },
+    {
+        "cost":260,
+        "voteCount":4680,
+        "reviewCount":3700,
+        "paymentMethods": {
+            "card": "true",
+            "cash": "true",
+            "upi": "true"
+        },
+        "rating":4.1,
+        "name":"Shiraz Golden Restaurant",
+        "imageUrl":"https://b.zmtcdn.com/data/pictures/5/25705/e2f6198514ae7714c201f8b95dd9a01c_o2_featured_v2.jpg"
+
+    },
+    {
+        "cost":280,
+        "voteCount":3654,
+        "reviewCount":2632,
+        "paymentMethods": {
+            "card": "true",
+            "cash": "true",
+            "upi": "true"
+        },
+        "rating":2.8,
+        "name":"Kankurgachi Dhaba",
+        "imageUrl":"https://b.zmtcdn.com/data/pictures/0/18461760/34f16ca887d95fc14b4aa5bb6f89e9b7_o2_featured_v2.jpg"
+
+    },
+    {
+        "cost":215,
+        "voteCount":1987,
+        "reviewCount":1725,
+        "paymentMethods": {
+            "card": "true",
+            "cash": "true",
+            "upi": "true"
+        },
+        "rating":3.6,
+        "name":"Khana Khazana",
+        "imageUrl":"https://b.zmtcdn.com/data/pictures/9/18568349/54d40362e31e3bdaef47857a4060b60e_o2_featured_v2.jpg"
+
+    }
+    
+]
