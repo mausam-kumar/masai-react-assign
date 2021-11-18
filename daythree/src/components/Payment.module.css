@@ -1,0 +1,42 @@
+.mainCard{
+    margin: 10px auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+.mainCardLeft{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+.mainCardLeft>p{
+    font-weight: 700;
+    font-size:40px;
+    margin-top: 0px;
+    /* border: 1px solid red; */
+}
+.mainCardLeft>date{
+    font-weight:500;
+    font-size:25px;
+}
+.mainCardLeft>Button{
+    width:20%;
+    
+}
+.mainCardRight{
+    width:40%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.mainCardRight>p{
+    font-family: 600;
+    font-size: 50px;
+}
+.mainCardRight>img{
+    width:50%
+}
