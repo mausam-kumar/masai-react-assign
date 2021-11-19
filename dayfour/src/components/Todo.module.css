@@ -1,0 +1,31 @@
+input{
+    height: 30px;
+    width: 240px;
+    margin: 20px;
+    padding: 1%;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(253, 251, 251);
+    background-color: rgb(83, 73, 146);
+    border: none;
+    outline: none;
+}
+input::placeholder{
+  color: white;
+}
+.eleCard{
+  margin: 10px auto;
+  display: flex;
+  /* border: 1px solid red; */
+  width: 50%;
+  justify-content: space-between;
+  padding: 0.5%;
+  align-items: center;
+  font-weight: 500;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius:10px;
+  background-color:rgb(50, 97, 185);
+  color: white;
+}
