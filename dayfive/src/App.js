@@ -2,7 +2,9 @@ import "./App.css";
 // import {Stopwatch} from './components/Stopwatch'
 // import {Timer} from './components/Timer'
 
-import {TodoFirst} from './components/todoFirst/TodoFirst.jsx'
+// import {TodoFirst} from './components/todoFirst/TodoFirst.jsx'
+
+import Focus from './components/Focus.jsx'
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
 		{/* <Stopwatch /> */}
 		{/* <Timer /> */}
 
-		<TodoFirst />
+		{/* <TodoFirst /> */}
+
+		<Focus />
 
 	</div>
   )
