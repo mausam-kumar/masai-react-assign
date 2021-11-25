@@ -4,7 +4,8 @@ import "./App.css";
 
 // import {TodoFirst} from './components/todoFirst/TodoFirst.jsx'
 
-import Focus from './components/Focus.jsx'
+// import Focus from './components/daySix/Focus.jsx'
+import Form from './components/daySix/Form.jsx'
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
 
 		{/* <TodoFirst /> */}
 
-		<Focus />
+		{/* <Focus /> */}
+
+		<Form />
 
 	</div>
   )
