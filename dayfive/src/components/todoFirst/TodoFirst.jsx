@@ -22,7 +22,7 @@ function TodoFirst() {
            
 
         
-    },[page,data])
+    },[page])
 
     async function handleToggle(id,status){
         const value = status==="false"?"true":"false"
@@ -37,7 +37,7 @@ function TodoFirst() {
                 "Content-type": "application/json; charset=UTF-8"
             }
         }
-        const data = await fetch(`http://localhost:3000/posts/${id}`,config)
+        await fetch(`http://localhost:3000/posts/${id}`,config)
         setPage((prevState) => prevState)
     }
     
@@ -46,7 +46,7 @@ function TodoFirst() {
         const config = {
             method: 'DELETE'
         }
-        const data = await fetch(`http://localhost:3000/posts/${id}`,config)
+        await fetch(`http://localhost:3000/posts/${id}`,config)
         setPage((prevState) => prevState)
     }
 
