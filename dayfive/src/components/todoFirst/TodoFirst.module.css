@@ -1,0 +1,35 @@
+.inputField{
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 50px;
+    /* width: 100px; */
+    outline: none;
+    border: 2px solid crimson;
+    overflow: hidden;
+    padding: 0 20px;
+    border-radius:5px;
+    
+}
+.displayCard{
+    padding: 1%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.displayCardText{
+    display: flex;
+    width:70% ;
+    align-items: center;
+    margin-top: 25px;
+    color: crimson;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size:20px;
+    /* border: 1px solid red; */
+}
