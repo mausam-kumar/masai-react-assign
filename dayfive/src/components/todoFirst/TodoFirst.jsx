@@ -9,6 +9,8 @@ function TodoFirst() {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true)
     const [page,setPage] = useState(1)
+    const [toggleLoad,setToggleLoad] = useState(false)
+
     useEffect(() => {
         
         fetch(`http://localhost:3000/posts?_limit=3&_page=${page}`)
@@ -22,7 +24,7 @@ function TodoFirst() {
            
 
         
-    },[page])
+    },[page,toggleLoad])
 
     async function handleToggle(id,status){
         const value = status==="false"?"true":"false"
@@ -38,7 +40,8 @@ function TodoFirst() {
             }
         }
         await fetch(`http://localhost:3000/posts/${id}`,config)
-        setPage((prevState) => prevState)
+
+        setToggleLoad(toggleLoad===true?false:true)
     }
     
     
@@ -47,9 +50,9 @@ function TodoFirst() {
             method: 'DELETE'
         }
         await fetch(`http://localhost:3000/posts/${id}`,config)
-        setPage((prevState) => prevState)
+        setToggleLoad(toggleLoad===true?false:true)
     }
-
+    
     function handlePage(e){
         switch (e.target.name) {
             case "PREV":
