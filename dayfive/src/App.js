@@ -6,7 +6,11 @@ import "./App.css";
 
 // import Focus from './components/daySix/Focus.jsx'
 // import Form from './components/daySix/Form.jsx'
-import Application from './components/daySix/Application.jsx'
+// import Application from './components/daySix/Application.jsx'
+// import TimerStopwatch from './components/daySix/TimerStopwatch.jsx'
+
+
+import {TodoFirst} from './components/daySeven/TodoFirst.jsx'
 
 function App() {
   return (
@@ -21,7 +25,11 @@ function App() {
 
 		{/* <Form /> */}
 
-		<Application />
+		{/* <Application /> */}
+
+		{/* <TimerStopwatch /> */}
+
+		<TodoFirst />
 
 	</div>
   )
