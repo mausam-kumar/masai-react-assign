@@ -9,8 +9,9 @@ import "./App.css";
 // import Application from './components/daySix/Application.jsx'
 // import TimerStopwatch from './components/daySix/TimerStopwatch.jsx'
 
+// import {TodoFirst} from './components/daySeven/TodoFirst.jsx'
 
-import {TodoFirst} from './components/daySeven/TodoFirst.jsx'
+import Github from './components/daySeven/github/Github.jsx'
 
 function App() {
   return (
@@ -29,7 +30,10 @@ function App() {
 
 		{/* <TimerStopwatch /> */}
 
-		<TodoFirst />
+		{/* <TodoFirst /> */}
+
+		<Github />
+
 
 	</div>
   )

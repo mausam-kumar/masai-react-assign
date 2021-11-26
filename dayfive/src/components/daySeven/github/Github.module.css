@@ -1,0 +1,10 @@
+.mainCard{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+.mainCard > div:nth-child(1) > img{
+    height: 150px;
+    width: 150px;
+    border-radius:100%;
+}
