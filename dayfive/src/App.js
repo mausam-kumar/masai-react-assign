@@ -7,11 +7,11 @@ import "./App.css";
 // import Focus from './components/daySix/Focus.jsx'
 // import Form from './components/daySix/Form.jsx'
 // import Application from './components/daySix/Application.jsx'
-// import TimerStopwatch from './components/daySix/TimerStopwatch.jsx'
+import TimerStopwatch from './components/daySix/TimerStopwatch.jsx'
 
-// import {TodoFirst} from './components/daySeven/TodoFirst.jsx'
+// import {TodoSecond} from './components/daySeven/TodoSecond.jsx'
 
-import Github from './components/daySeven/github/Github.jsx'
+// import Github from './components/daySeven/github/Github.jsx'
 
 function App() {
   return (
@@ -28,11 +28,11 @@ function App() {
 
 		{/* <Application /> */}
 
-		{/* <TimerStopwatch /> */}
+		<TimerStopwatch />
 
-		{/* <TodoFirst /> */}
+		{/* <TodoSecond /> */}
 
-		<Github />
+		{/* <Github /> */}
 
 
 	</div>

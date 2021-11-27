@@ -5,7 +5,7 @@ import {Button} from '../Button.jsx'
 import style from './TodoFirst.module.css'
 import axios from 'axios'
 
-function TodoFirst() {
+function TodoSecond() {
 
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true)
@@ -111,4 +111,4 @@ function TodoFirst() {
     )
 }
 
-export {TodoFirst}
+export {TodoSecond}
