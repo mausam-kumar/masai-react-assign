@@ -20,5 +20,79 @@
       "status": "false",
       "id": "d7c4bb95-e18b-4310-a502-c8e61240ca5f"
     }
+  ],
+  "userdetail": [
+    {
+      "name": "Mausam",
+      "age": "22",
+      "address": "Bihar",
+      "department": "CSE",
+      "salary": "5000",
+      "marital": true,
+      "id": "a2dcf02d-75b8-4106-90bc-46367d2ee1c6"
+    },
+    {
+      "name": "Naman",
+      "age": "23",
+      "address": "Kolkata",
+      "department": "IT",
+      "salary": "7000",
+      "marital": true,
+      "id": "3103e133-8a4b-4646-895a-76ac1837bb81"
+    },
+    {
+      "name": "Nikhil",
+      "age": "23",
+      "address": "Kolkata",
+      "department": "IT",
+      "salary": "8000",
+      "marital": false,
+      "id": "1116184f-8d7c-48c1-866a-d19776ee9853"
+    },
+    {
+      "name": "Mausam",
+      "age": "25",
+      "address": "Kolkata",
+      "department": "ECE",
+      "salary": "9000",
+      "marital": false,
+      "id": "b715b2c3-b714-4089-8c65-71054ae8b89b"
+    },
+    {
+      "name": "Irshad",
+      "age": "26",
+      "address": "Kolkata",
+      "department": "ETC",
+      "salary": "3000",
+      "marital": false,
+      "id": "4400133c-bbba-4761-8053-1c9bf61c2072"
+    },
+    {
+      "name": "7egend",
+      "age": "52",
+      "address": "Delhi",
+      "department": "ECE",
+      "salary": "99000",
+      "marital": false,
+      "id": "1885c890-bbce-4f89-861b-6010e714d6b8"
+    },
+    {
+      "name": "Sachin",
+      "age": "26",
+      "address": "bihar",
+      "department": "CSE",
+      "salary": "9000000",
+      "marital": true,
+      "id": "305f3ef5-b813-49a6-a2cb-a48c286855fa"
+    },
+    {
+      "name": "Sachin Kumar",
+      "age": "26",
+      "address": "bihar",
+      "department": "CSE",
+      "salary": "9000000",
+      "marital": true,
+      "id": "4d444627-addb-4cc3-b44c-5ac896240092"
+    }
   ]
 }

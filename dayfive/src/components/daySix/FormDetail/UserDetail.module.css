@@ -1,0 +1,74 @@
+.inputFieldDiv{
+    display:flex;
+    width: 400px;
+    margin: 50px auto;
+    flex-direction: column;
+    justify-content:flex-start;
+    /* border: 1px solid green; */
+    font-weight: 400;
+    font-size:16px;
+}
+.inputFieldDiv > div{
+    width:300px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    padding:4%;
+    border-radius:5px ;
+    box-shadow: rgba(245, 51, 84, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(226, 57, 57, 0.08) 0px 1px 0px inset;
+}
+.inputFieldDiv > div> label{
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+    color: crimson;
+    /* border: 1px solid red; */
+}
+.inputFieldDiv > div> input{
+    padding: 2%;
+    border: 1px solid crimson;
+    outline: none;
+    color: cornflowerblue;
+    border-radius:4px;
+}
+.inputFieldDiv > div> input::placeholder{
+    color: crimson;
+}
+.inputFieldDiv > div> select{
+    color: crimson;
+    padding: 1%;
+    outline:none;
+    border: 1px solid crimson;
+    border-radius:4px;
+}
+.diaplayCard{
+    display: flex;
+    /* grid-template-columns: repeat(4,1fr); */
+    justify-content: space-around;
+    color: crimson;
+    width: 100%;
+    font-size:10px;
+    margin: 25px;
+    align-items:center;
+    /* flex-wrap: wrap; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: .3%;
+
+}
+.mainContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border: 1px solid green;
+}
+.mainContainer > div:nth-child(2){
+    width: 70%;
+    /* border: 1px solid green; */
+}
+.mainContainer > Form{
+    width: 30%;
+}
+.mainForm{
+    /* border: 1px solid green; */
+    width: 40%;
+}

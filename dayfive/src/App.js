@@ -7,7 +7,8 @@ import "./App.css";
 // import Focus from './components/daySix/Focus.jsx'
 // import Form from './components/daySix/Form.jsx'
 // import Application from './components/daySix/Application.jsx'
-import TimerStopwatch from './components/daySix/TimerStopwatch.jsx'
+// import TimerStopwatch from './components/daySix/TimerStopwatch.jsx'
+import UserDetail from './components/daySix/FormDetail/UserDetail.jsx'
 
 // import {TodoSecond} from './components/daySeven/TodoSecond.jsx'
 
@@ -28,7 +29,9 @@ function App() {
 
 		{/* <Application /> */}
 
-		<TimerStopwatch />
+		{/* <TimerStopwatch /> */}
+
+		<UserDetail />
 
 		{/* <TodoSecond /> */}
 
