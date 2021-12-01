@@ -15,7 +15,8 @@ import "./App.css";
 // import Github from './components/daySeven/github/Github.jsx'
 
 // import ReactSidebar  from "./components/dayEight/ReactSidebar";
-import ReactNavigation  from "./components/dayEight/ReactNavigation";
+// import ReactNavigation  from "./components/dayEight/ReactNavigation";
+import CreditCard  from "./components/dayEight/CreditCard";
 
 function App() {
   return (
@@ -43,7 +44,9 @@ function App() {
 
 		{/* <ReactSidebar /> */}
 
-		<ReactNavigation />
+		{/* <ReactNavigation /> */}
+
+		<CreditCard />
 	</div>
   )
 }
