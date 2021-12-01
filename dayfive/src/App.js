@@ -14,7 +14,8 @@ import "./App.css";
 
 // import Github from './components/daySeven/github/Github.jsx'
 
-import ReactSidebar  from "./components/dayEight/ReactSidebar";
+// import ReactSidebar  from "./components/dayEight/ReactSidebar";
+import ReactNavigation  from "./components/dayEight/ReactNavigation";
 
 function App() {
   return (
@@ -40,9 +41,9 @@ function App() {
 		{/* <Github /> */}
 		
 
-		<ReactSidebar />
+		{/* <ReactSidebar /> */}
 
-
+		<ReactNavigation />
 	</div>
   )
 }
