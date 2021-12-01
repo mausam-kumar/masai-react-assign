@@ -8,11 +8,13 @@ import "./App.css";
 // import Form from './components/daySix/Form.jsx'
 // import Application from './components/daySix/Application.jsx'
 // import TimerStopwatch from './components/daySix/TimerStopwatch.jsx'
-import UserDetail from './components/daySix/FormDetail/UserDetail.jsx'
+// import UserDetail from './components/daySix/FormDetail/UserDetail.jsx'
 
 // import {TodoSecond} from './components/daySeven/TodoSecond.jsx'
 
 // import Github from './components/daySeven/github/Github.jsx'
+
+import ReactSidebar  from "./components/dayEight/ReactSidebar";
 
 function App() {
   return (
@@ -31,11 +33,14 @@ function App() {
 
 		{/* <TimerStopwatch /> */}
 
-		<UserDetail />
+		{/* <UserDetail /> */}
 
 		{/* <TodoSecond /> */}
 
 		{/* <Github /> */}
+		
+
+		<ReactSidebar />
 
 
 	</div>
