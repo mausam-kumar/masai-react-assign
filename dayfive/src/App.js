@@ -16,7 +16,9 @@ import "./App.css";
 
 // import ReactSidebar  from "./components/dayEight/ReactSidebar";
 // import ReactNavigation  from "./components/dayEight/ReactNavigation";
-import CreditCard  from "./components/dayEight/CreditCard";
+// import CreditCard  from "./components/dayEight/CreditCard";
+
+import StyledComponent  from "./components/dayEight/StyledComponent";
 
 function App() {
   return (
@@ -46,7 +48,9 @@ function App() {
 
 		{/* <ReactNavigation /> */}
 
-		<CreditCard />
+		{/* <CreditCard /> */}
+
+		<StyledComponent />
 	</div>
   )
 }
