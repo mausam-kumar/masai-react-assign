@@ -18,7 +18,9 @@ import "./App.css";
 // import ReactNavigation  from "./components/dayEight/ReactNavigation";
 // import CreditCard  from "./components/dayEight/CreditCard";
 
-import StyledComponent  from "./components/dayEight/StyledComponent";
+// import StyledComponent  from "./components/dayEight/StyledComponent";
+
+import Auth from "./components/dayNine/authContext/Auth.jsx"
 
 function App() {
   return (
@@ -50,7 +52,10 @@ function App() {
 
 		{/* <CreditCard /> */}
 
-		<StyledComponent />
+		{/* <StyledComponent />
+		 */}
+
+		 <Auth />
 	</div>
   )
 }
