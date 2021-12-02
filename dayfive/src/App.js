@@ -20,7 +20,9 @@ import "./App.css";
 
 // import StyledComponent  from "./components/dayEight/StyledComponent";
 
-import Auth from "./components/dayNine/authContext/Auth.jsx"
+// import Auth from "./components/dayNine/authContext/Auth.jsx"
+
+import Theme from "./components/dayNine/themeContext/Theme.jsx"
 
 function App() {
   return (
@@ -55,7 +57,9 @@ function App() {
 		{/* <StyledComponent />
 		 */}
 
-		 <Auth />
+		 {/* <Auth /> */}
+
+		 <Theme />
 	</div>
   )
 }

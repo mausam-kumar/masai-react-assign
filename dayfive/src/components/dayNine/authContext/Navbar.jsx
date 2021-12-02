@@ -35,7 +35,7 @@ function Navbar() {
             <Paper elevation={3} style={{display:"flex",alignItems: "center",justifyContent: "center",padding:"15px"}}>
                 <div>
                     <TextField id="outlined-basic" 
-                        name="username" label="Username" 
+                        name="username" label="Email" 
                         variant="outlined" 
                         onChange={(e) => handleState(e)}
                         style={{marginRight:"20px"}}

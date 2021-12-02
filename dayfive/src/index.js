@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AuthContextProvider from './components/dayNine/authContext/AuthContextProvider.jsx'
+import ThemeContextProvider from './components/dayNine/themeContext/ThemeContextProvider.jsx'
 
 ReactDOM.render(
   <React.StrictMode>
-    <AuthContextProvider>
-      <App />
-    </AuthContextProvider>
+    <ThemeContextProvider>
+      <AuthContextProvider>
+        <App />
+      </AuthContextProvider>
+    </ThemeContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
