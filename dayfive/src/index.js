@@ -6,11 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import AuthContextProvider from './components/dayNine/authContext/AuthContextProvider.jsx'
 import ThemeContextProvider from './components/dayNine/themeContext/ThemeContextProvider.jsx'
 
+import DarkModeContext from './components/dayNine/Darkmode/DarkModeContext.jsx'
+
 ReactDOM.render(
   <React.StrictMode>
     <ThemeContextProvider>
       <AuthContextProvider>
-        <App />
+        <DarkModeContext>
+          <App />
+        </DarkModeContext>
       </AuthContextProvider>
     </ThemeContextProvider>
   </React.StrictMode>,

@@ -22,7 +22,10 @@ import "./App.css";
 
 // import Auth from "./components/dayNine/authContext/Auth.jsx"
 
-import Theme from "./components/dayNine/themeContext/Theme.jsx"
+// import Theme from "./components/dayNine/themeContext/Theme.jsx"
+
+import Darkmode from "./components/dayNine/Darkmode/Darkmode.jsx"
+
 
 function App() {
   return (
@@ -59,7 +62,9 @@ function App() {
 
 		 {/* <Auth /> */}
 
-		 <Theme />
+		 {/* <Theme /> */}
+
+		 <Darkmode />
 	</div>
   )
 }
